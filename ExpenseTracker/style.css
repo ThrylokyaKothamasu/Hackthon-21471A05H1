@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgrey;
+}
+
+.containers{
+  
+    padding: 30px;
+    border-radius: 10px;
+    
+    text-align: center;
+    width: 400px;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+
+#Amount,#Category,#date{
+    height: 15px;
+    width: 200px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#addButton{
+    padding: 10px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#addButton:hover{
+    background-color: rgb(67, 165, 169);
+}
+
+#ExpenseItems{
+    list-style-type: none;
+    padding: 0px;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+
+li.notcompleted{
+color:green;
+}
+
+
+li.completed{
+    color:red;
+}
+
+
+#result{
+    color: red;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.bi-check2,.bi-square{
+    color: green;
+    font-weight: bold;
+}
+
+.bi-trash3-fill{
+    color: red;
+} 
+
+button{
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+.a{
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+li{
+    list-style-type: none;
+}
